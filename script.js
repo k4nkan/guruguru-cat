@@ -53,12 +53,18 @@ window.addEventListener('resize', () => {
   renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
-window.addEventListener('click', () => {
+function updateRotationSpeed() {
   const min = -0.1;
   const max = 0.5;
 
   rotationSpeed = Math.random() * (max - min) + min;
-});
+}
+
+// PCクリック対応
+window.addEventListener('click', updateRotationSpeed);
+
+// スマホタップ対応
+window.addEventListener('touchstart', updateRotationSpeed);
 
 function animate() {
   requestAnimationFrame(animate);
