@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  overflow: hidden; /* スクロールバーを非表示にする */
+  display: flex;
+  justify-content: center; /* 水平方向の中央揃え */
+  align-items: center; /* 垂直方向の中央揃え */
+  height: 100vh; /* ビューポートの高さいっぱいにする */
+  background-color: #f0f0f0; /* 背景色 */
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Three.jsのCanvasが生成されるため、特別なスタイルは不要ですが、
+   もし調整が必要な場合はここに記述します。 */
+canvas {
+  display: block; /* 余白をなくす */
+}
