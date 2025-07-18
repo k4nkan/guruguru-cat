@@ -29,7 +29,7 @@ let model;
 let rotationSpeed = 0.01; // 初期速度
 
 new GLTFLoader().load(
-  'cat.glb',
+  'cat3.glb',
   (gltf) => {
     model = gltf.scene;
 
