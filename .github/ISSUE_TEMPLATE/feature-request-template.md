@@ -1,24 +1,17 @@
 ---
 name: Feature Request Template
 about: This template is for new feature request.
-title: ''
+title: "[Feature] Add <short description>"
 labels: enhancement
 assignees: k4nkan
 
 ---
 
-### ✨ Feature
+### Feature
+<!-- What do you want to add? -->
 
-Briefly describe the feature you'd like to add.
+### Why
+<!-- Why is it useful or necessary? -->
 
----
-
-### 🧩 Motivation
-
-Why do you need this feature? What problem does it solve?
-
----
-
-### ✅ Acceptance Criteria
-
-What should be done for this to be considered complete?
+### Done
+<!-- What does "done" look like? -->

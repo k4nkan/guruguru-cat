@@ -1,28 +1,20 @@
 ---
 name: Bug Fix Template
 about: This template is for bug fix
-title: ''
+title: "[Bug] <short description of the problem>"
 labels: bug
 assignees: k4nkan
 
 ---
 
-### 🐞 Bug
-What’s the bug? Describe the unexpected behavior.
+### Bug
+<!-- Describe the bug -->
 
----
+### Steps to Reproduce
+<!-- How to reproduce it -->
 
-### 💻 Steps to Reproduce
-How can I reproduce the bug? List the steps.
+### Expected
+<!-- What should have happened -->
 
----
-
-### ✅ Expected Behavior
-What did you expect to happen?
-
----
-
-### 🖥️ Environment (if relevant)
-- OS:
-- Browser / Device:
-- Flutter version (if applicable):
+### Environment (optional)
+<!-- OS, browser, version info, etc. -->
