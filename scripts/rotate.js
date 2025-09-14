@@ -29,7 +29,7 @@ let model;
 let rotationSpeed = 0.01; // 初期速度
 
 new GLTFLoader().load(
-  "./assets/my-model.glb",
+  "./assets/run&yuruyuru.glb",
   (gltf) => {
     model = gltf.scene;
     model.scale.set(4.5, 4.5, 4.5);
